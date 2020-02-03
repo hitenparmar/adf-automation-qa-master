@@ -1,0 +1,10 @@
+{
+  "name": "protractor_example",
+  "dependencies": {
+    "protractor-beautiful-reporter": "^1.3.6"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
+}
