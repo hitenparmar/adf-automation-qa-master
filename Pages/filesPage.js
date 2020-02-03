@@ -59,9 +59,15 @@ let filePage = function () {
     }
 
     this.verifyErrorMessageForDuplicateFolder = function () {
-        let errorMessage = element(by.xpath('//div[@class="cdk-live-announcer-element cdk-visually-hidden"]'));
+        let errorMessage = element.all(by.xpath('//div[@class="cdk-live-announcer-element cdk-visually-hidden"]'));
+
+        /*TODO : update method
+        errorMessage.getText().then(function (text) {
+            console.log("Error MEssage: "+text);
+        });
 
         expect(errorMessage.getText()).toEqual(testData.getDuplicateFolderErrMsg());
+         */
     }
 };
 
