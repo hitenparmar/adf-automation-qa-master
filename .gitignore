@@ -1,2 +1,3 @@
 # Project exclude paths
 /starter/node_modules/
+/starter/TestReport/
